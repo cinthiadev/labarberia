@@ -1,0 +1,155 @@
+.contents {
+    padding: 30px 0;
+    background-image: url('../../assets/images/4-services_bg.jpeg');
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    background-position: center;
+}
+
+.services {
+    padding: 40px;
+    margin: 60px 100px;
+    background-color: #000000cc;
+}
+
+.price-table {
+    width: 100%;
+}
+
+.services h2 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Montserrat';
+}
+
+.price-table th,
+.price-table td {
+    padding: 10px 20px 10px 0px;
+    text-align: left;
+}
+
+.price-table th {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    color: red;
+}
+
+.price-table th,
+.price-table td {
+    text-align: left;
+    vertical-align: top;
+}
+
+.combos th {
+    padding-top: 40px;
+}
+
+.table-mobile {
+    display: none;
+}
+
+#services .button-checkin{
+    margin: 60px 0 30px 0;
+    display: flex;
+    justify-content: center;
+}
+
+#services .button-checkin a {
+    background-color: var(--cor-primaria);
+    border: 1px solid var(--cor-primaria);
+    cursor: pointer;
+    padding: 10px 80px;
+    color: var(--cor-textos);
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#services .button-checkin a:hover {
+    border: 1px solid var(--cor-textos);
+    cursor: pointer;
+    padding: 10px 80px;
+    color: var(--cor-textos);
+    font-size: 16px;
+}
+
+@media screen and (max-width: 600px) {
+    .contents {
+        background-size: cover;
+        object-fit: cover;
+        width: 100%;
+        background-position: center;
+        padding: 20px 0;
+        background-image: url('../../assets/images/4-services_bg.jpeg');
+        background-position: top;
+    }
+
+    .services {
+        background-color: #000000cc;
+        margin: 30px 20px;
+        padding: 30px 20px;
+    }
+
+    .services h2 {
+        margin-bottom: 0px;
+        text-align: center;
+        font-size: 26px;
+    }
+
+    tr th {
+        height: 0;
+    }
+
+    .table-main {
+        display: none;
+    }
+
+    .table-mobile {
+        display: block;
+    }
+
+    .table-mobile td {
+        margin-bottom: 0px;
+    }
+
+    tr {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .price-table td {
+        padding: 10px 10px 10px 0px;
+    }
+
+    #services .button-checkin {
+        padding-left: 0px;
+    }
+    
+    #services .button-checkin {
+        margin: 40px 0 10px 0;
+    }
+
+    #services .button-checkin button {
+        padding: 10px;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    #services .button-checkin a {
+        padding: 10px;
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    #services .button-checkin a:hover {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+
+}

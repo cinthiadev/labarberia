@@ -1,0 +1,162 @@
+header {
+    width: 100%;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #201f1fe1;
+    position: fixed;
+    z-index: 999999;
+}
+
+header .logoHeader {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logoHeader img {
+    width: 80px;
+    height: 100%;
+}
+
+header .navbar {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+header .navbar a {
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+header .navbar a:hover{
+    color: red;
+    font-weight: bold;
+}
+
+header .button-checkin {
+    padding-left: 20px;
+}
+
+header .button-checkin a {
+    background-color: var(--cor-primaria);
+    border: 1px solid var(--cor-primaria);
+    cursor: pointer;
+    width: 100%;
+    color: var(--cor-textos);
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+header .button-checkin a:hover {
+    border: 1px solid var(--cor-textos);
+}
+
+header .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .social-media a {
+    color: var(--cor-textos);
+    padding-right: 20px;
+}
+
+header .social-media a:hover {
+    color: var(--cor-primaria);
+}
+
+header .menu-toggle {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 0;
+        margin: 0;
+        margin-top: -20px;
+        margin-left: -20px;
+    }
+
+    header .social-media {
+        height: 100%;
+        margin-left: 100px;
+        margin-right: -60px;
+        margin-top: 6px;
+    }
+
+    header .logoHeader img {
+        width: 60px;
+    }
+
+    .close-icon {
+        font-size: 20px;
+        font-weight: 600;
+        color: #fff;
+
+        padding: 6px;
+        cursor: pointer;
+        transition: transform 0.3s;
+    }
+
+    header .menu-toggle .bar {
+        width: 22px;
+        height: 2px;
+        background-color: #fff;
+        margin: 5px 0;
+        margin-bottom: 2px;
+        transition: transform 0.3s;
+    }
+
+    header .navbar {
+        display: none;
+        position: fixed;
+        top: 70px;
+        right: 20px;
+        bottom: 15px;
+        left: 20px;
+        padding: 40px 10px;
+        border-radius: 6px;
+        background-color: #222;
+        overflow-y: auto;
+        transition: 0.3s;
+        height: 400px;
+        z-index: 9999999;
+        cursor: pointer;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    header .navbar a {
+        margin-bottom: 24px;
+    }
+
+    header .button-checkin {
+        margin-top: 20px;
+    }
+    
+    header .button-checkin a {
+        font-size: 12px;
+        padding: 10px;
+    }
+    
+    header .button-checkin a:hover {
+        padding: 10px;
+    }
+
+    header .menu-toggle {
+        display: flex;
+        order: 2;
+    }
+
+    header .navbar.open {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

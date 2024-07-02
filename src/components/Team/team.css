@@ -1,0 +1,162 @@
+.edit-team-info {
+  display: flex;
+}
+
+.image-team-edit {
+  margin-right: 10px;
+}
+
+#team {
+  padding-top: 80px;
+}
+
+#team h2 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.member-info {
+  width: 100%;
+
+}
+
+.member-info h3 {
+  margin-bottom: 10px;
+}
+
+.member-info p {
+  font-size: 14px;
+  line-height: 1.5em;
+
+}
+
+.card-info {
+  display: flex;
+  margin-bottom: 20px;
+  background-color: #00000025;
+}
+
+.image-member-page img {
+  height: 100%;
+  min-height: 200px;
+  object-fit: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+
+@media (max-width: 767px) {
+  .card-info {
+    display: block;
+  }
+
+}
+
+@media (min-width: 768px) {
+  #team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 120px 100px 40px 100px;
+  }
+
+  #team h2 {
+    margin-bottom: 60px;
+  }
+
+  .group-members {
+    gap: 20px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .image-member-page {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .image-member-page img {
+    height: 100%;
+    min-height: 200px;
+    object-fit: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+
+  .card-info {
+    background-color: #00000025;
+    height: auto;
+    margin-bottom: 20px;
+
+    min-height: 400px;
+    max-height: 200px;
+  }
+
+  .member-info {
+    margin: 20px;
+  }
+
+  .member-info p {
+    font-size: 14px;
+    line-height: 1.5em;
+    padding-right: 5px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .member-info {
+    margin: 0px;
+  }
+
+  .group-members {
+
+    gap: 20px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+  }
+
+  .image-member-page img {
+    height: 100%;
+    width: 100%;
+    object-position: 20% 30%;
+    background-position: top;
+  }
+
+  .member-info {
+    padding: 40px;
+  }
+
+
+  .member-info p {
+    font-size: 16px;
+    line-height: 1.5em;
+    padding-right: 5px;
+  }
+
+
+
+}
+
+
+.member-info {
+  padding: 20px;
+}
+
+@media (min-width: 1600px) {
+  
+  .member-info p {
+    font-size: 16px;
+    line-height: 1.5em;
+    padding-right: 5px;
+  }
+}

@@ -1,0 +1,311 @@
+#edit-team {
+    padding: 40px 0 0 0;
+    margin-bottom: 80px;
+}
+
+
+.container-admin-panel .section-admin select {
+    background-color: #fff;
+    color: #000;
+    width: 100%;
+    border-radius: 8px;
+    border: 0;
+    padding: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    outline: none;
+    margin: 10px 0;
+}
+
+
+.container-info {
+
+    height: 100%;
+}
+
+.btn-admin-save-edit {
+    background-color: #3354C6;
+}
+
+.add-barber {
+    padding-top: 0px;
+}
+
+.add-barber #name {
+    outline: none;
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 0;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.image-member-add {
+    background-color: #00000025;
+}
+
+@media (min-width: 768px) {
+
+    .container-team {
+        padding: 40px 0;
+    }
+
+    #edit-team {
+        padding: 0;
+    }
+
+    .btn-actions-team-images-slider .btn-change-photo {
+        width: 100%;
+        background-color: #3354C6;
+        height: 100%;
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .btn-actions-team-images-slider .btn-delete-header-images-slider {
+        height: 100%;
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .btn-admin-cancel {
+        background-color: red;
+    }
+
+    .edit-services .btn-admin-save-edit {
+        background-color: #3354C6;
+        margin-right: 10px;
+
+    }
+
+    .btn-delete-header-images-slider {
+        height: 40px;
+    }
+
+    .btn-actions-team-images-slider {
+        display: grid;
+        gap: 12px;
+        grid-template-columns: 1fr 1fr;
+        width: 60%;
+        height: 40px;
+        float: right;
+    }
+
+    .infos-members-edit {
+        margin-top: 0px;
+    }
+
+    .description-member-mobile {
+        display: none;
+    }
+
+    .btn-actions-team-edit {
+        margin-top: 0px;
+    }
+
+    .btn-actions-team-edit-2 {
+        margin-top: 40px;
+    }
+
+    .add-barber {
+        padding-bottom: 0px;
+    }
+
+    .btn-admin-cancel-team {
+        width: 100%;
+        height: 100%;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .description-member-desktop {
+        margin-top: 10px;
+    }
+
+    .description-member-desktop textarea {
+        height: 200px;
+    }
+
+    .image-member.image-member-add {
+
+        width: 88%;
+    }
+
+    .btn-actions {
+        margin-top: 20px;
+    }
+
+    .title-services-edit-team {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .button-save-mobile {
+        display: none;
+    }
+
+    .group-buttons-actions {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .group-change-save {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .button-change-photo-member,
+    .button-save-changes-member {
+        background-color: #3354C6;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .button-delete-member {
+        background-color: red;
+        font-size: 14px;
+        width: 100px;
+        font-weight: 500;
+    }
+
+    .edit-team .image-member-page img {
+        padding-right: 20px;
+        height: 100%;
+        width: 90%;
+    }
+
+    .edit-team .image-member-page {
+        height: 600px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .description-member-mobile {
+        display: block;
+        width: 100%;
+    }
+
+    #edit-team {
+        padding: 0 0 40px 0;
+        margin-bottom: 0px;
+    }
+
+    .title-services-edit-team {
+        display: block;
+    }
+
+    .image-member.image-member-add {
+
+        margin-right: 0px;
+    }
+
+
+    .description-member-mobile h3 {
+        margin-top: 10px;
+    }
+
+    .btn-actions-team-images-slider .btn-change-photo {
+        width: 100%;
+        background-color: #3354C6;
+        height: 100%;
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .btn-actions-team-images-slider .btn-delete-header-images-slider {
+        height: 100%;
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .btn-admin-cancel {
+        background-color: red;
+    }
+
+    .edit-services .btn-admin-save-edit {
+        background-color: #3354C6;
+        margin-right: 10px;
+    }
+
+    .btn-delete-header-images-slider {
+        height: 40px;
+    }
+
+    .btn-actions-team-images-slider {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        height: 40px;
+    }
+
+    .description-member-desktop {
+        display: none;
+    }
+
+
+    .image-member-add {
+        width: 100%;
+        height: 200px;
+        border: 0;
+        background-color: #00000025;
+        margin: 20px 0;
+    }
+
+    .edit-team .image-member-page {
+        margin-bottom: 20px;
+        height: 400px;
+    }
+
+
+    .group-buttons-actions {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .group-change-save {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .button-change-photo-member,
+    .button-save-changes-member {
+        background-color: #3354C6;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .button-delete-member {
+        background-color: red;
+        font-size: 14px;
+        width: 100px;
+        font-weight: 500;
+    }
+
+    .add-barber {
+        margin-top: -20px;
+    }
+
+}
+
+.description-member {
+    margin-top: 20px;
+}
+
+.infos-members-edit h3 {
+    margin-top: 0px;
+}
+
+#nameMember {
+    border-radius: 6px;
+    height: 100%;
+}
+
+

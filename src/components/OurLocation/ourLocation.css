@@ -1,0 +1,279 @@
+@media (max-width: 767px) {
+    .our-location-desktop {
+        display: none;
+    }
+
+    .iconLocation {
+        color: var(--cor-primaria);
+        font-size: 20px;
+        margin-right: 10px;
+    }
+
+    .our-location-mobile .background-ourLocation2 {
+        height: 120vh;
+        min-height: 800px;
+        position: relative;
+    }
+
+    .our-location-mobile .background-ourLocation2 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-position: center;
+    }
+
+    .our-location-mobile .background-about2 {
+        display: none;
+    }
+
+    .our-location-mobile .about-our-location {
+        position: absolute;
+        width: 80%;
+        top: 150px;
+        padding: 20px 40px 20px 40px;
+        height: 70%;
+        z-index: 0;
+        background-color: #000000cc;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .our-location-mobile .about-our-location p {
+        line-height: 1.8em;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    .our-location-mobile .about-our-location h2 {
+        font-size: 24px;
+    }
+
+    .our-location-desktop {
+        display: none;
+    }
+
+    .our-location-mobile .local {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .our-location-desktop {
+        display: none;
+    }
+
+    .iconLocation {
+        color: var(--cor-primaria);
+        font-size: 20px;
+        margin-right: 10px;
+    }
+
+    .our-location-mobile .background-ourLocation2 {
+        height: 120vh;
+        min-height: 800px;
+        position: relative;
+    }
+
+    .our-location-mobile .background-ourLocation2 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-position: center;
+    }
+
+    .our-location-mobile .background-about2 {
+        display: none;
+    }
+
+    .our-location-mobile .about-our-location {
+        position: absolute;
+        width: 80%;
+        top: 150px;
+        padding: 20px 60px 20px 60px;
+        height: 70%;
+        z-index: 0;
+        background-color: #000000cc;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .our-location-mobile .about-our-location p {
+        line-height: 1.8em;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    .our-location-mobile .local {
+        margin-bottom: 20px;
+    }
+
+    .our-location-mobile .about-our-location h2 {
+        font-size: 24px;
+    }
+
+    .our-location-desktop {
+        display: none;
+    }
+}
+
+
+@media (min-width: 1201px) and (max-width: 1366px) {
+    .our-location-desktop .about-our-location {
+        position: absolute;
+        width: 70%;
+        padding: 0 60px;
+        height: 100%;
+        z-index: 9;
+        background-color: #000000cc;
+        right: auto;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .our-location-desktop .about-our-location p {
+        line-height: 3em;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .our-location-desktop .about-our-location .local {
+        line-height: 1.8em;
+        margin-top: 10px;
+    }
+
+    .iconLocation {
+        color: var(--cor-primaria);
+        font-size: 20px;
+        margin-right: 10px;
+    }
+
+    .our-location-desktop .about-our-location h2 {
+        font-size: 28px;
+    }
+
+    .our-location-desktop .parallax-our-location {
+        display: flex;
+    }
+
+    .our-location-desktop .background-ourLocation1,
+    .our-location-desktop .background-ourLocation2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 140vh;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+    }
+
+    .our-location-desktop .background-ourLocation1 {
+
+        background-position: -300px -40px;
+
+    }
+
+    .our-location-mobile {
+        display: none;
+    }
+}
+
+@media (min-width: 1367px) {
+    .our-location-desktop .about-our-location {
+        position: absolute;
+        width: 70%;
+        padding: 0 60px;
+        height: 100%;
+        z-index: 9;
+        background-color: #000000cc;
+        right: auto;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .our-location-desktop .about-our-location p {
+        line-height: 3em;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .our-location-desktop .about-our-location .local {
+        line-height: 1.8em;
+        margin-top: 10px;
+    }
+
+    .iconLocation {
+        color: var(--cor-primaria);
+        font-size: 20px;
+        margin-right: 10px;
+    }
+
+    .our-location-desktop .about-our-location h2 {
+        font-size: 28px;
+    }
+
+    .our-location-desktop .parallax-our-location {
+        display: flex;
+    }
+
+    .our-location-desktop .background-ourLocation1,
+    .our-location-desktop .background-ourLocation2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 140vh;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        background-position: center;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-position: top;
+    }
+
+
+    .our-location-desktop .background-ourLocation1 {
+
+        background-position: -300px -40px;
+
+    }
+
+    .our-location-mobile {
+        display: none;
+    }
+}
+
+/*
+@media (max-width: 600px) {
+    .about-our-location {
+        height: 80%;
+    }
+
+    .background-ourLocation2 {
+        height: 110vh;
+    }
+}
+
+.background-ourLocation1 {
+    background-image: url('../../assets/images/3-barbershoplocation-1.jpg');
+}
+
+.background-ourLocation2 {
+    background-image: url('../../assets/images/3-barbershoplocation-2.jpeg');
+} */

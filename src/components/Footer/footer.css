@@ -1,0 +1,49 @@
+
+footer {
+    text-align: center;
+    padding: 40px 0 20px 0;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+
+.logo-footer {
+    width: 30%;
+   
+}
+
+.contact-info,
+.opening-hours {
+    padding-bottom: 20px;
+    line-height: 1.5em;
+}
+
+.copyright p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-copy-footer {
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+
+    footer,
+    .copyright p {
+        font-size: 12px;
+    }
+
+    .logo-footer {
+        width: 70%;
+    }
+
+}

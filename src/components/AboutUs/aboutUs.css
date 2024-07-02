@@ -1,0 +1,295 @@
+
+
+
+@media (max-width: 767px) {
+    .about-us-mobile .background-about1 {
+        height: 100vh;
+        position: relative;
+    }
+
+    .about-us-mobile .background-about1 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-position: center;
+    }
+
+    .about-us-mobile .background-about2 {
+        display: none;
+    }
+
+    .about-us-mobile .about-description {
+        position: absolute;
+        width: 70%;
+        top: 150px;
+        padding: 60px 40px 20px 40px;
+        height: 70%;
+        z-index: 0;
+        background-color: #000000cc;
+        right: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      
+    }
+
+    .about-us-mobile .about-description p {
+        line-height: 1.8em;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    .about-us-mobile .about-description h2 {
+        font-size: 24px;
+    }
+
+    .about-us-desktop {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .about-us-desktop {
+        display: none;
+    }
+
+    .about-us-mobile .background-about1 {
+        min-height: 800px;
+        height: 100vh;
+        position: relative;
+    }
+
+    .about-us-mobile .background-about1 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-position: center;
+    }
+
+    .about-us-mobile .background-about2 {
+        display: none;
+    }
+
+    .about-us-mobile .about-description {
+        position: absolute;
+        width: 60%;
+        top: 120px;
+        padding: 0 60px;
+        height: 70%;
+        z-index: 0;
+        background-color: #000000cc;
+        right: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .about-us-mobile .about-description p {
+        line-height: 3em;
+        margin-top: 20px;
+    }
+
+    .about-us-mobile .about-description h2 {
+        font-size: 28px;
+    }
+
+}
+
+@media (min-width: 1201px) and (max-width: 1366px) {
+    .about-us-mobile {
+        display: none;
+    }
+
+    .about-us-desktop .about-description {
+        position: absolute;
+        width: 70%;
+        padding: 0 60px;
+        height: 100%;
+        z-index: 9;
+        background-color: #000000cc;
+        right: 0;
+        left: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .about-us-desktop .about-description p {
+        line-height: 3em;
+        margin-top: 40px;
+    }
+
+    .about-us-desktop .about-description h2 {
+        font-size: 28px;
+    }
+
+    .about-us-desktop .parallax-about {
+        display: flex;
+    }
+
+    .about-us-desktop .background-about1,
+    .about-us-desktop .background-about2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media (min-width: 1367px) {
+    .about-us-mobile {
+        display: none;
+    }
+
+    .about-us-desktop .about-description {
+        position: absolute;
+        width: 70%;
+        padding: 0 60px;
+        height: 100%;
+        z-index: 9;
+        background-color: #000000cc;
+        right: 0;
+        left: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .about-us-desktop .about-description p {
+        line-height: 3em;
+        margin-top: 40px;
+    }
+
+    .about-us-desktop .about-description h2 {
+        font-size: 28px;
+    }
+
+    .about-us-desktop .parallax-about {
+        display: flex;
+    }
+
+    .about-us-desktop .background-about1,
+    .about-us-desktop .background-about2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+/* .about-description {
+    position: absolute;
+    width: 70%;
+    padding: 0 60px;
+    height: 100%;
+    z-index: 9;
+    background-color: #000000cc;
+    right: 0;
+    left: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-description p {
+    line-height: 3em;
+    margin-top: 40px;
+}
+
+.about-description h2 {
+    font-size: 28px;
+}
+
+.parallax-about {
+    display: flex;
+}
+
+.background-about1,
+.background-about2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+@media (min-width: 1600px) {
+    .background-about1, .background-about2 {
+        height: 80vh;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .about-description {
+        width: 75%;
+        padding: 20px 40px;
+        height: 70%;
+        left: 0;
+        right: auto;
+    }
+
+    .about-description p {
+        line-height: 1.8em;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    
+    .about-description h2 {
+        font-size: 24px;
+    }    
+
+    .background-about2 {
+        display: none; 
+    }
+
+    .background-about1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 80vh;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+}
+
+.background-about1 {
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: left;
+    background-image: url('../../assets/images/3-aboutus-1.png');
+}
+
+.background-about2 {
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-image: url('../../assets/images/3-aboutus-2.jpg');
+} */

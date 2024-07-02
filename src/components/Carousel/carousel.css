@@ -1,0 +1,79 @@
+.hero {
+    width: 100%;
+    height: 110vh;
+    padding: 0;
+    position: relative;
+}
+
+
+.images img {
+    width: 100%;
+    height: 110vh;
+    object-fit: cover;
+}
+
+.logoBgCarousel {
+    width: 28%;
+    position: absolute;
+    z-index: 999;
+    padding: 20px 40px;
+    margin-top: 170px;
+}
+
+.carousel-bg {
+    display: flex;
+    justify-content: center;
+}
+
+.images .swiper-button-prev,
+.images .swiper-button-next {
+    color: #de0613;
+    padding: 20px;
+    height: 80px;
+}
+
+.images .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background-color: #ffff;
+}
+
+.images .swiper-pagination-bullet-active {
+    background-color: #de0613;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        width: 100%;
+        top: -40px;
+        height: 50vh;
+        padding: 0;
+        position: relative;
+    }
+
+    .images {
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+    }
+
+
+    .images img {
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+    }
+
+    .images .swiper-button-prev,
+    .images .swiper-button-next {
+        display: none;
+    }
+
+
+    .logoBgCarousel {
+        width: 55%;
+        padding: 10px 20px;
+
+        margin-top: 140px;
+    }
+}

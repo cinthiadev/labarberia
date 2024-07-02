@@ -1,0 +1,21 @@
+.about textarea {
+    height: 200px;
+}
+
+.about #description2 {
+    height: 80px;
+}
+
+@media (min-width: 768px) {
+    .about #description1 {
+        height: 100px;
+    }
+
+    .about #description2 {
+        height: 40px;
+    }
+
+    .edit-about .btn-actions{
+        margin-top: 10px;
+    }
+}

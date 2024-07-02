@@ -1,0 +1,28 @@
+
+.edit-ourlocation textarea {
+    height: 150px;
+}
+
+.edit-ourlocation #description1,.edit-ourlocation #address,.edit-ourlocation #observation{
+    height: 100px;
+}
+
+.edit-ourlocation #googleAddressURL {
+    height: 240px;
+}
+
+@media (min-width: 768px) {
+    
+.edit-ourlocation textarea {
+    height: 60px;
+}
+
+.edit-ourlocation #description1,.edit-ourlocation #address,.edit-ourlocation #observation{
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.edit-ourlocation #googleAddressURL {
+    height: 100px;
+}
+}
